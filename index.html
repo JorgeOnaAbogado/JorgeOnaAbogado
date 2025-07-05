@@ -11,58 +11,43 @@
             padding: 0;
         }
         header {
-            background-color: #003366;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #0a0a23;
             color: white;
-            padding: 20px;
-            position: relative;
         }
-        header h1 {
+        header img {
+            height: 60px;
+            margin-right: 15px;
+        }
+        h1 {
             margin: 0;
-            font-size: 28px;
-        }
-        .logo {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            height: 50px;
         }
         main {
-            padding: 30px;
-        }
-        section {
-            margin-bottom: 30px;
+            padding: 40px 20px;
         }
         h2 {
-            color: #003366;
+            color: #0a0a23;
         }
-        footer {
-            background-color: #eee;
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
+        ul {
+            line-height: 1.8;
+            font-size: 1.1em;
         }
     </style>
 </head>
 <body>
     <header>
+        <img src="logo-abogado.png" alt="Logo de Jorge Oña Abogado">
         <h1>Jorge Oña Abogado</h1>
-        <img src="logo-abogado.png" alt="Logo de Jorge Oña" class="logo">
     </header>
     <main>
-        <section>
-            <h2>Servicios</h2>
-            <ul>
-                <li>Defensa, Consultoría y Patrocinio</li>
-                <li>Derecho Penal</li>
-                <li>Derecho Constitucional</li>
-                <li>Derecho Civil</li>
-                <li>Derecho de Familia</li>
-                <li>Entre otros</li>
-            </ul>
-        </section>
+        <h2>Servicios Jurídicos</h2>
+        <ul>
+            <li>1. Derecho Penal</li>
+            <li>2. Derecho Civil – Sucesiones</li>
+            <li>3. Derecho de Familia</li>
+        </ul>
     </main>
-    <footer>
-        &copy; 2025 Jorge Oña - Todos los derechos reservados
-    </footer>
 </body>
 </html>
